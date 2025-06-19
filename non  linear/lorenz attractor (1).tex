@@ -1,0 +1,276 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.2 distribution.
+%   Version 4.2a of REVTeX, December 2014
+%
+%   Copyright (c) 2014 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+\documentclass[%
+ reprint,
+ amsmath,amssymb,
+ aps,
+ floatfix,
+]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{natbib}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Quantitative analysis of the complexity of dynamical systems}
+\thanks{A footnote to the article title}
+
+\author{Ann Author}
+ \altaffiliation[Also at ]{Physics Department, University of Dhaka.}
+\author{Second Author}
+ \email{Second.Author@institution.edu}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}
+
+\collaboration{MUSO Collaboration}
+
+\author{Charlie Author}
+ \homepage{http://www.Second.institution.edu/~Charlie.Author}
+\affiliation{
+ Second institution and/or address\\
+ This line break forced
+}%
+\affiliation{
+ Third institution, the second for Charlie Author
+}%
+\author{Delta Author}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}
+
+\collaboration{CLEO Collaboration}
+
+\date{\today}
+
+\begin{abstract}
+Abstract
+\begin{description}
+\item[Usage] Secondary publications and information retrieval purposes.
+\item[Structure] The paper presents a comprehensive framework for quantifying complexity in chaotic systems.
+\end{description}
+\end{abstract}
+
+\maketitle
+
+\section{\label{sec:level1}Introduction}
+
+The Lorenz attractor arises from a simplified model of atmospheric convection developed by Edward N. Lorenz in 1963. It is also studied in information theory, complexity science, and geometric analysis.\\
+It is given by three coupled differential equations. The solution to these equations traces a beautiful butterfly-shaped trajectory in xyz-space. By simply observing this trajectory, we recognize that it is not a simple system. Yet quantifying this complexity remains difficult. There are some defined ways to measure complexity such as Kolmogorov complexity, López-Ruiz-Mancini-Calbet (LMC) complexity, etc. 
+We can compute existing complexity measures, but this immediately raises a vital question: "Are these measures even sufficient for capturing the true complexity of this system? If not, what alternative approach can we discover?"
+If we succeed in establishing a meaningful new quantity for measuring complexity, it must carry genuine physical significance.\\
+Simultaneously, we can explore other measurements that can describe the system like entropy, as entropy in general quantifies the unpredictability and the lack of information. One finds several entropies such as Boltzmann entropy, Shannon entropy, Kolmogorov–Sinai entropy (KS entropy), approximate entropy, sample entropy, permutation entropy, and many more. With so many entropy definitions available, we must ask: Do all entropies tell the same story, or do they reveal fundamentally different aspects? Moreover, we could seek novel kinds of entropy that might describe this system more effectively.\\
+Furthermore, the Lorenz attractor is an example of deterministic chaos. The term deterministic chaos means that the system originates from a set of deterministic equations, yet produces behavior that is unpredictable in the long term although it is predictable in the short term. Given its chaotic nature, we might also calculate quantities like Lyapunov exponents, which explain how sensitive a dynamical system is to initial conditions, and multifractal spectrum (need to write why we use it), etc.\\
+Beyond dynamics, we may also look for geometric properties – extracted not only from the trajectory itself, but also from phase space, velocity space, and beyond. (need to write what kind of geometry we may find)\\
+In order to calculate all these, we have three time series (x, y, z). One may study them statistically or using information theory. In either case, each time series can be studied individually, but we must understand their interdependence. Therefore, these series demand mutual analysis.\\
+To uncover relationships between key quantities, we can employ tools like mutual information, transfer mutual information, etc. Even though the system is chaotic, we can search for periodicity using autocorrelation which measures how a signal relates to itself over time. Moreover, we need to understand how we can find geometric properties from these time series.
+\section{Literature Survey}
+\subsection{Shannon Entropy}
+Shannon entropy (SE), introduced by Claude Shannon (site) that quantifies the average uncertainty of a random variable. For a discrete variable $X$ with outcome ${x_i}$, is defined as:
+
+\begin{equation}
+H(X) = -\sum_{i} p(x_i) \log_2 p(x_i)
+\label{eq:shannon}
+\end{equation}
+where $p(x_i)$ is the probability of outcome $x_i$.where,
+\[
+H(X) \geq 0
+\]
+
+
+
+\subsection{\label{sec:citeref}Citations and References}
+
+
+\subsubsection{Citations}
+
+
+\paragraph{Syntax}
+
+
+\paragraph{The options of the cite command itself}
+
+
+\subsubsection{Example citations}
+
+
+\subsubsection{References}
+
+
+\subsubsection{Example references}
+
+
+
+
+\subsection{Footnotes}%
+
+\section{Methodology}
+
+
+\begin{eqnarray}
+\chi_+(p)\alt{\bf [}2|{\bf p}|(|{\bf p}|+p_z){\bf ]}^{-1/2}
+\left(
+\begin{array}{c}
+|{\bf p}|+p_z\\
+px+ip_y
+\end{array}\right)\;,
+\\
+\left\{%
+ \openone234567890abc123\alpha\beta\gamma\delta1234556\alpha\beta
+ \frac{1\sum^{a}_{b}}{A^2}%
+\right\}%
+\label{eq:one}.
+\end{eqnarray}
+
+\subsection{Multiline equations}
+
+\begin{eqnarray}
+{\cal M}=&&ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
+\delta_{\sigma_1,-\sigma_2}
+(g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)\nonumber\\
+&&\times
+[\epsilon_jl_i\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1),
+\end{eqnarray}
+\begin{eqnarray}
+\sum \vert M^{\text{viol}}_g \vert ^2&=&g^{2n-4}_S(Q^2)~N^{n-2}
+        (N^2-1)\nonumber \\
+ & &\times \left( \sum_{i<j}\right)
+  \sum_{\text{perm}}
+ \frac{1}{S_{12}}
+ \frac{1}{S_{12}}
+ \sum_\tau c^f_\tau~.
+\end{eqnarray}
+
+\begin{eqnarray*}
+\sum \vert M^{\text{viol}}_g \vert ^2&=&g^{2n-4}_S(Q^2)~N^{n-2}
+        (N^2-1)\\
+ & &\times \left( \sum_{i<j}\right)
+ \left(
+  \sum_{\text{perm}}\frac{1}{S_{12}S_{23}S_{n1}}
+ \right)
+ \frac{1}{S_{12}}~.
+\end{eqnarray*}
+
+\begin{equation}
+g^+g^+ \rightarrow g^+g^+g^+g^+ \dots ~,~~q^+q^+\rightarrow
+q^+g^+g^+ \dots ~. \tag{2.6$'$}\label{eq:mynum}
+\end{equation}
+
+\begin{subequations}
+\label{eq:whole}
+\begin{eqnarray}
+{\cal M}=&&ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
+(g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)\nonumber\\
+&&\times
+[\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1).\label{subeq:2}
+\end{eqnarray}
+\end{subequations}
+
+\subsubsection{Wide equations}
+The equation that follows is set in a wide format, i.e., it spans the full page. 
+The wide format is reserved for long equations
+that cannot easily be set in a single column:
+\begin{widetext}
+\begin{equation}
+{\cal R}^{(\text{d})}=
+ g_{\sigma_2}^e
+ \left(
+   \frac{[\Gamma^Z(3,21)]_{\sigma_1}}{Q_{12}^2-M_W^2}
+  +\frac{[\Gamma^Z(13,2)]_{\sigma_1}}{Q_{13}^2-M_W^2}
+ \right)
+ + x_WQ_e
+ \left(
+   \frac{[\Gamma^\gamma(3,21)]_{\sigma_1}}{Q_{12}^2-M_W^2}
+  +\frac{[\Gamma^\gamma(13,2)]_{\sigma_1}}{Q_{13}^2-M_W^2}
+ \right)\;. 
+ \label{eq:wideeq}
+\end{equation}
+\end{widetext}
+\section{Results and Discussion}
+
+\section{Conclusion}
+
+\begin{acknowledgments}
+We acknowledge helpful discussions with colleagues and support from our institutions. This work was supported by the XYZ Foundation (Grant No. 12345).
+\end{acknowledgments}
+
+\appendix
+\section{Technical Details}
+
+The appendix provides additional mathematical details omitted from the main text for readability.
+
+\begin{equation}
+\mathcal{R} = \sum_{i=1}^N \frac{x_i^2}{2\sigma^2}.
+\label{eq:appendix_eq}
+\end{equation}
+
+\bibliography{apssamp}
+
+\end{document}
+% ****** End of file apssamp.tex ******
+
+
+\begin{acknowledgments}
+We wish to acknowledge the support of the author community in using
+REV\TeX{}, offering suggestions and encouragement, testing new versions,
+\dots.
+\end{acknowledgments}
+
+\appendix
+
+\section{Appendixes}
+
+\begin{verbatim}
+\appendix
+\section{}
+\end{verbatim}
+will produce an appendix heading that says ``APPENDIX A'' and
+\begin{verbatim}
+\appendix
+\section{Background}
+\end{verbatim}
+will produce an appendix heading that says ``APPENDIX A: BACKGROUND''
+(note that the colon is set automatically).
+
+If there is only one appendix, then the letter ``A'' should not
+appear. This is suppressed by using the star version of the appendix
+command (\verb+\appendix*+ in the place of \verb+\appendix+).
+
+\section{A little more on appendixes}
+
+Observe that this appendix was started by using
+\begin{verbatim}
+\section{A little more on appendixes}
+\end{verbatim}
+
+Note the equation number in an appendix:
+\begin{equation}
+E=mc^2.
+\end{equation}
+
+\subsection{\label{app:subsec}A subsection in an appendix}
+
+
+% The \nocite command causes all entries in a bibliography to be printed out
+% whether or not they are actually referenced in the text. This is appropriate
+% for the sample file to show the different styles of references, but authors
+% most likely will not want to use it.
+\nocite{*}
+\bibliography{apssamp}% Produces the bibliography via BibTeX.
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
