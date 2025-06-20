@@ -92,11 +92,24 @@ H(X) \geq 0
 SE calculates the entropy of entropy of symbolic sequences. High SE indicates high chaoticity. However, SE ignores geometric structure. As a result same SE values can be arrived from geometrically different  structure. Besides it can not capture directional information flow.\\
 \subsection{Kolmogorov-Sinai Entropy}
 The Kolmogorov-Sinai (KS) entropy, introduced independently by Kolmogorov (1958) and Sinai (1959). It measure the rate of information production in deterministic dynamical systems which refers to the rate at which a system generates uncertainty about its future state. KS entropy is defined as:
-
 \begin{equation}
 	h_u  = \operatorname*{sup}_{\mathcal{P}} \operatorname*{\lim}_{n \to \infty} \frac{1}{n} h(P_n)	
 \end{equation}
-
+\subsection{Rényi entropy}
+Rényi entropy [] is generalization of Shannon entropy which quantify uncertainty or randomness of a system using a parameter $\alpha$. For a discrete probability distribution $P = (p_1,p_2,...,p_k)$ this is defined as:
+\begin{equation}
+	H_\alpha (P) = \frac{1}{1 - \alpha} \log (\sum_{i=1}^{k} p_{i}^{\alpha})
+\end{equation}
+R\'enyi entropy is particularly useful in analyzing where a single scaling entropy measure may not suffice []. 
+here:\\
+$\alpha \geq 0$\\ 
+$\alpha \neq 1$ (for $\alpha$ = 1, it converge to Shannon entropy)\\
+\subsection{Transfer Entropy}
+Transfer entropy (TE) [] quantifies the directional flow of information between two time series. It is widely used in chaos theory, neuroscience and complex system making it highly relevant for studying Lorenz attractor. For two time series $X$ and $Y$ the transfer entropy from Y to X is:
+\begin{equation}
+T_{Y\to X} = \sum p(x_{t+1}, x_{t}^{(k)}, y_{t}^{(k)}) \log\left( \frac{p(x_{t+1} \mid x_{t}^{(k)}, y_{t}^{(k)})}{p(x_{t+1} \mid x_{t}^{(k)})} \right)
+\end{equation}
+TE can identify dominant driving variable. It also detects dynamic causation. Besides Lyapunov exponents [] measure local instability and KS entropy calculates global unpredictability but not coupling structure but TE complements these by quantifying information transfer pathway.
 \subsection{\label{sec:citeref}Citations and References}
 
 
