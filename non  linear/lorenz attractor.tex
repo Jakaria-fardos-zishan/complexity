@@ -110,6 +110,34 @@ Transfer entropy (TE) [] quantifies the directional flow of information between 
 T_{Y\to X} = \sum p(x_{t+1}, x_{t}^{(k)}, y_{t}^{(k)}) \log\left( \frac{p(x_{t+1} \mid x_{t}^{(k)}, y_{t}^{(k)})}{p(x_{t+1} \mid x_{t}^{(k)})} \right)
 \end{equation}
 TE can identify dominant driving variable. It also detects dynamic causation. Besides Lyapunov exponents [] measure local instability and KS entropy calculates global unpredictability but not coupling structure but TE complements these by quantifying information transfer pathway.
+\subsection{Permutation Entropy}
+Permutation entropy (PE), introduced by Bandt and Pompe in 2002 []. It is a simple method for quantifying complexity. Unlike traditional entropy PE calculates the unpredictability or randomness of a signal by analyzing the ordinal patterns of its values. PE is broadly use is the study of chaotic system.
+\begin{equation}
+	H_{PE} = -\sum_{i} P(\pi_i) \log P(\pi_i)
+\end{equation}
+Here $P(\pi_i)$ is the probability of pattern $\pi_i$.\\
+High PE refers irregular behavior and low PE indicates deterministic nature. PE ignores amplitude as a result weighted permutation entropy is used. Moreover, it can not handle equal values is neighborhood. For this reason we can use weighted permutation entropy.
+\subsection{Weighted Permutation Entropy}
+Weighted Permutation Entropy (WPE) is an advanced variant of PE. Unlike PE it includes amplitude information into complexity analysis. WPE is a powerful tool for chaotic system like Lorenz attractor as both ordinal patterns and amplitude variations play critical role here.
+\begin{equation} 
+	H_{WPE} = -\sum_{\pi} p_w(\pi) \ln p_w (\pi)
+\end{equation} 
+
+Where $p_w(\pi)$ is weighted probability of observing an ordinal pattern $\pi$ in a time series.\\
+ (need to make sure the eq for wpe)\\
+where $w_i$ is variance $w_i = \frac{1}{m} \sum_{k=1}^{m} (x_{i+(k-1)\tau} - \overline{x}_i) $
+\subsection{Mutual Information}
+Mutual Information (MI) measures the nonlinear dependence between two random variables. It estimates how much knowing one variable reduces uncertainty about another. In the context of dynamical systems , it's used to study interdependence between different time series or system components. Let $X$ and $Y$ be two random variable and $p(x,y)$ ber joint probability and $p(x)$ and $p(y)$ be marginal probability. In that case MI is defined as:
+\begin{equation}
+	I(X,Y) = \sum_{x\in X} \sum_{y\in Y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}
+\end{equation}
+It can also be interpreted as:
+\begin{equation}
+	I(X,Y) = H(X) + H(Y) - H(X,Y)
+\end{equation}
+where $H(X)$, $H(Y)$ and $H(X,Y)$ and Shannon entropy of $X$, $Y$ and joint SE of $X$ and $Y$ respectively.
+\subsection{Higuchi Fractal Dimension}
+Higuchi Fractal Dimension (HFD) [] is an efficient way to estimate fractal dimention (FD) [] of a time series. It was introduced by T. Higuchi (1988). It gives a quantitative measure of complexity. Besides chaos analysis it is widely used in neuroscience and signal processing. 
 \subsection{\label{sec:citeref}Citations and References}
 
 
