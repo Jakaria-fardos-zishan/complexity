@@ -165,7 +165,17 @@ This types of trajectory connects two different saddle equilibria. It starts at 
 \begin{equation}
 	\lim_{t\to-\infty}x(t)= x_a	  and   \lim_{t\to\infty}x(t)= x_b
 \end{equation}
-It forms a bridge between two saddle points. However it is often seen in symmetric system.
+It forms a bridge between two saddle points. However it is often seen in symmetric system.\\
+To find these types of orbits first we need to calculate the saddle equilibrias. we need to solve the values of $x$, $y$ and $z$ for $\dot{x}=0$, $\dot{y}=0$ and $\dot{z}=0$.\\
+after solving it we get,\\
+\begin{equation}
+	(x,y,z) = (0,0,0)
+\end{equation}
+and
+\begin{equation}
+	(x,y,z) = (\pm \sqrt{\beta(\rho -1)}, \pm \sqrt{\beta(\rho -1)}, \rho -1)
+\end{equation}
+
 \subsection{\label{sec:citeref}Citations and References}
 
 
@@ -192,89 +202,20 @@ It forms a bridge between two saddle points. However it is often seen in symmetr
 \subsection{Footnotes}%
 
 \section{Methodology}
-
-
-\begin{eqnarray}
-\chi_+(p)\alt{\bf [}2|{\bf p}|(|{\bf p}|+p_z){\bf ]}^{-1/2}
-\left(
-\begin{array}{c}
-|{\bf p}|+p_z\\
-px+ip_y
-\end{array}\right)\;,
-\\
-\left\{%
- \openone234567890abc123\alpha\beta\gamma\delta1234556\alpha\beta
- \frac{1\sum^{a}_{b}}{A^2}%
-\right\}%
-\label{eq:one}.
-\end{eqnarray}
-
-\subsection{Multiline equations}
-
-\begin{eqnarray}
-{\cal M}=&&ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
-\delta_{\sigma_1,-\sigma_2}
-(g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)\nonumber\\
-&&\times
-[\epsilon_jl_i\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1),
-\end{eqnarray}
-\begin{eqnarray}
-\sum \vert M^{\text{viol}}_g \vert ^2&=&g^{2n-4}_S(Q^2)~N^{n-2}
-        (N^2-1)\nonumber \\
- & &\times \left( \sum_{i<j}\right)
-  \sum_{\text{perm}}
- \frac{1}{S_{12}}
- \frac{1}{S_{12}}
- \sum_\tau c^f_\tau~.
-\end{eqnarray}
-
-\begin{eqnarray*}
-\sum \vert M^{\text{viol}}_g \vert ^2&=&g^{2n-4}_S(Q^2)~N^{n-2}
-        (N^2-1)\\
- & &\times \left( \sum_{i<j}\right)
- \left(
-  \sum_{\text{perm}}\frac{1}{S_{12}S_{23}S_{n1}}
- \right)
- \frac{1}{S_{12}}~.
-\end{eqnarray*}
-
-\begin{equation}
-g^+g^+ \rightarrow g^+g^+g^+g^+ \dots ~,~~q^+q^+\rightarrow
-q^+g^+g^+ \dots ~. \tag{2.6$'$}\label{eq:mynum}
-\end{equation}
-
-\begin{subequations}
-\label{eq:whole}
-\begin{eqnarray}
-{\cal M}=&&ig_Z^2(4E_1E_2)^{1/2}(l_i^2)^{-1}
-(g_{\sigma_2}^e)^2\chi_{-\sigma_2}(p_2)\nonumber\\
-&&\times
-[\epsilon_i]_{\sigma_1}\chi_{\sigma_1}(p_1).\label{subeq:2}
-\end{eqnarray}
-\end{subequations}
-
-\subsubsection{Wide equations}
-The equation that follows is set in a wide format, i.e., it spans the full page. 
-The wide format is reserved for long equations
-that cannot easily be set in a single column:
-\begin{widetext}
-\begin{equation}
-{\cal R}^{(\text{d})}=
- g_{\sigma_2}^e
- \left(
-   \frac{[\Gamma^Z(3,21)]_{\sigma_1}}{Q_{12}^2-M_W^2}
-  +\frac{[\Gamma^Z(13,2)]_{\sigma_1}}{Q_{13}^2-M_W^2}
- \right)
- + x_WQ_e
- \left(
-   \frac{[\Gamma^\gamma(3,21)]_{\sigma_1}}{Q_{12}^2-M_W^2}
-  +\frac{[\Gamma^\gamma(13,2)]_{\sigma_1}}{Q_{13}^2-M_W^2}
- \right)\;. 
- \label{eq:wideeq}
-\end{equation}
-\end{widetext}
+To find the geometric properties of the Lorenz system, firstly, we take cross sections of the phase space as $p_x$ vs $x$, $p_y$ vs $p_z$ etc and observed them. We avoid terms like $p_x$ vs $y$. However, we also checked if the kinetic energy of the system is conserved or not. Since, for a system usually the total energy is conserved sometimes we therefore try to calculate the work on a unit mass particle. After this we summed and subtracted this from the kinetic energy to find if these results are constant. 
+we also try to find some average values like average of $x$, $v_x$ etc. Besides, for a range of parameter's value homoclinic and heteroclinic orbits are found. We took the values of $\rho$, $\sigma$ and $\beta$ to be [0,30] as the perameters are positive of lorenz system. With step 1, 29791 trajectories was examined for being homoclinic or heteroclinic or none of them. As these types of trajectories are vary rare we expected to find a few trajectories of these types.    \\
+As its known that for a straight line the $\ddot{\vec{r}}$ is zero and for a circle $\dot{\vec{r}}$ is zero for this reason dot product and cross product of these terms was calculated over time. If this terms converge it might be a property of the system.
 \section{Results and Discussion}
-
+If we analysis the slices of phase space we find that each of the 2D slices have some kind symmetry or anti-symmetry of the trajectory on that about a line. For different slices the lines are different. We believe that if it was possible to let the time goes for infinity one might find that each point on a bound space were covered. 
+i wanna give pics here
+None of kinetic energy, work and their summation or subtraction are conserved.
+will give pictures here.
+However $\langle x\rangle$, $\langle y\rangle$ and  $\langle z\rangle$ converge to some values. which is due to their nature of orbiting around some attractor. 
+pic here
+With step=1 for the values of $\rho$, $\sigma$ and $\beta$ in the range [0,30] we have found some values of $(\sigma, \beta, \rho )$ for which we get the homoclinic orbits and hetero clinic orbits.
+give pics here.
+Neither the dot product nor the cross product of $\ddot{\vec{r}}$ and $\dot{\vec{r}}$ converged.
+put  the graph here
 \section{Conclusion}
 
 \begin{acknowledgments}
