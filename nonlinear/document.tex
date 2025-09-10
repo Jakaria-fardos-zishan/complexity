@@ -20,6 +20,8 @@ floatfix,
 \usepackage{natbib}
 \usepackage{subcaption}
 \usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{booktabs}
 \begin{document}
 	
 	\preprint{APS/123-QED}
@@ -308,73 +310,53 @@ floatfix,
 	\FloatBarrier
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.8\linewidth]{homoclinic_heteroclinic_points.png}
-		\caption{Velocity Space: $v_x$ vs $v_z$ demonstrating symmetric structure}
-		\label{fig:vx_vz}
+		\includegraphics[width=1.5\linewidth]{homoclinic_heteroclinic_points.png}
+		\caption{Parameters' value for Homoclinic and Heteroclinic orbits}
+		\label{homoclini_heteroclinic}
 	\end{figure}
 	\FloatBarrier
 	Neither the dot product nor the cross product of $\ddot{\vec{r}}$ and $\dot{\vec{r}}$ converged.\\
-	Permutation entropy was measured by observing the pattern of 3 corresponding points. Initially, it was not stable, but after a period of time, this reached a constant value. As, at the beginning, the butterfly shape of the path is not obtained, we do not get the actual value of entropy. As we took three points, there are $3!$ patterns, and for this scenario the highest value to Permutation entropy one woukd get is $0.$. But we did measure lower than that. If the trajectory was fully random we might get the highest value.
+	Permutation entropy was measured by observing the pattern of 3 corresponding points. Initially, it was not stable, but after a period of time, this reached a constant value. As, at the beginning, the butterfly shape of the path is not obtained, we do not get the actual value of entropy. As we took three points, there are $3!$ patterns, and for this scenario the highest value to Permutation entropy one woukd get is $2.585$. But we did measure lower than that. If the trajectory was fully random we might get the highest value.
+	\FloatBarrier
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.8\linewidth]{PE_vs_time_x.png}
-		\caption{Permutation Entropy of time series of x}
-		\label{fig:vx_vz}
+		\includegraphics[width=0.8\linewidth]{PE_vs_time_x_y_z.png}
+		\caption{Permutation Entropy}
+		\label{PE_for_time_series}
 	\end{figure}
+	
+	\FloatBarrier
+	Similar behaviour was observed in the Shanon entropy's and Renyi entropy's graph. We chose  $\alpha = 2$ for calculate Renyi over time.
+	\\
+	for,
+	\begin{itemize}
+		\item \(\alpha < 1\): More sensitive to rare events
+		\item \(\alpha = 1\): Renyi entropy $\to$ Shanon entropy
+		\item \(\alpha > 2\): More focused on most frequent events
+		\item \(\alpha \to \infty\): Minimum entropy
+	\end{itemize}
+	\FloatBarrier
 	\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.8\linewidth]{PE_vs_time_y.png}
-	\caption{Permutation Entropy of time series of y}
-	\label{fig:vx_vz}
-\end{figure}	
-	\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.8\linewidth]{PE_vs_time_z.png}
-	\caption{Permutation Entropy of time series of z}
-	\label{fig:vx_vz}
-\end{figure}
+		\centering
+		\includegraphics[width=0.8\linewidth]{SE_vs_time_x_y_z.png}
+		\caption{Shanon Entropy over time}
+		\label{SE_forx_time_series}
+	\end{figure}
+	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[width=0.8\linewidth]{SE_vs_time_x.png}
-		\caption{Shanon Entropy over time for time series of x}
-		\label{fig:vx_vz}
-	\end{figure}
-		\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.8\linewidth]{SE_vs_time_y.png}
-		\caption{Shanon Entropy over time for time series of y}
-		\label{fig:vx_vz}
-	\end{figure}
-		\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.8\linewidth]{SE_vs_time_z.png}
-		\caption{Shanon Entropy over time for time series of z}
-		\label{fig:vx_vz}
-	\end{figure}
-		\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.8\linewidth]{RE_vs_time_x.png}
-		\caption{Renyi Entropy over time for time series of x}
-		\label{fig:Renyi Entropy}
-	\end{figure}
-			\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.8\linewidth]{RE_vs_time_y.png}
-		\caption{Renyi Entropy over time for time series of y}
-		\label{fig:Renyi Entropy}
-	\end{figure}
-			\begin{figure}[htbp]
-		\centering
-		\includegraphics[width=0.8\linewidth]{RE_vs_time_z.png}
-		\caption{Renyi Entropy over time for time series of z}
+		\includegraphics[width=0.8\linewidth]{RE_vs_time_x_y_z.png}
+		\caption{Renyi Entropy over time}
 		\label{fig:Renyi Entropy}
 	\end{figure}
 			\begin{figure}[htbp]
 		\centering
 		\includegraphics[width=0.8\linewidth]{renyi_entropy_vs_alpha_for_100_bin.png}
 		\caption{Renyi Entropy with respect to $\alpha$}
-		\label{fig:Renyi Entropy}
+		\label{fig:Renyi Entropy_alpha}
 	\end{figure}
+	\FloatBarrier
+
 	\section{Conclusion}
 	
 	\begin{acknowledgments}
@@ -447,5 +429,4 @@ Note the equation number in an appendix:
 
 \end{document}
 %
-
 % ****** End of file apssamp.tex ******
