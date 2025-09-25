@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.16)  7 SEP 2025 06:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.16)  25 SEP 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,76 +269,66 @@ Package caption Info: New subtype `subtable' on input line 238.
 ) (F:\miktx\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(F:\miktx\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count285
+\@cmidlb=\count286
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count287
+\@lastruleclass=\count288
+\@thisrulewidth=\dimen173
+)
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 23.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 23.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 23.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 23.
+lass! (Proceeding with fingers crossed.) on input line 25.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 25.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 25.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 25.
 
 (F:\miktx\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
+\l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box70
-) (document.aux
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:vx_vz' multiply defined.
-
-
-LaTeX Warning: Label `fig:Renyi Entropy' multiply defined.
-
-
-LaTeX Warning: Label `fig:Renyi Entropy' multiply defined.
-
-
-LaTeX Warning: Label `fig:Renyi Entropy' multiply defined.
-
-)
+) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
- (F:\miktx\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(F:\miktx\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen161
+\scratchcounter=\count290
+\scratchdimen=\dimen174
 \scratchbox=\box71
-\nofMPsegments=\count287
-\nofMParguments=\count288
+\nofMPsegments=\count291
+\nofMParguments=\count292
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen162
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen175
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks28
 ) (F:\miktx\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -352,236 +342,274 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout3 = `documentNotes.bib'.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
-
-Class revtex4-2 Warning: Assuming \noaffiliation for collaboration.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 (F:\miktx\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
  (F:\miktx\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
-8.
+Underfull \hbox (badness 1005) in paragraph at lines 52--52
+  [][]\OT1/cmr/m/n/8 Also at Physics De-part-ment, Uni-ver-sity of Dhaka.; dast
+e-
+ []
 
-(F:\miktx\tex/latex/base\omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
- [1{C:/Users/ZS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+Package natbib Warning: Citation `lorenz2017deterministic' on page 1 undefined 
+on input line 55.
+
+
+Package natbib Warning: Citation `kolmogorov1965three' on page 1 undefined on i
+nput line 56.
+
+
+Package natbib Warning: Citation `lopez1995statistical' on page 1 undefined on 
+input line 56.
+
+
+Package natbib Warning: Citation `shannon1948mathematical' on page 1 undefined 
+on input line 59.
+
+
+Package natbib Warning: Citation `pincus1991approximate' on page 1 undefined on
+ input line 59.
+
+
+Package natbib Warning: Citation `bandt2002permutation' on page 1 undefined on 
+input line 59.
+
+
+Package natbib Warning: Citation `wolf1985determining' on page 1 undefined on i
+nput line 60.
+
+
+Package natbib Warning: Citation `kraskov2004estimating' on page 1 undefined on
+ input line 63.
+
+
+Package natbib Warning: Citation `PhysRevLett.85.461' on page 1 undefined on in
+put line 63.
+
+
+Package natbib Warning: Citation `yule1926nonsense' on page 1 undefined on inpu
+t line 63.
+
+
+Package natbib Warning: Citation `HIGUCHI1988277' on page 1 undefined on input 
+line 63.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[1{C:/Users/ZS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `kolmogorov1958new' on page 2 undefined on inp
+ut line 80.
+
+
+Package natbib Warning: Citation `sinai1959notion' on page 2 undefined on input
+ line 80.
+
+
+Package natbib Warning: Citation `renyi1961measures' on page 2 undefined on inp
+ut line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--109
+Package natbib Warning: Citation `fadlallah2013weighted' on page 2 undefined on
+ input line 107.
 
- []
+
+Package natbib Warning: Citation `mandelbrot1982fractal' on page 2 undefined on
+ input line 126.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 149--152
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
 
 
-Overfull \hbox (5.9229pt too wide) detected at line 185
+Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+ []
+
+
+Overfull \hbox (14.81172pt too wide) detected at line 170
 []\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 v[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 )\
-OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^Mv[] \OT1/cmr/m/n/10 +
- \OML/cmm/m/it/10 v[]z \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]x \OT1/cmr/m/n/
-10 + \OML/cmm/m/it/10 v[]a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 v[]y \OT1/cmr/m
-/n/10 + \OML/cmm/m/it/10 v[]x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^Lv[]
+OML/cmm/m/it/10 v[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 );
+ \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^Mv[] \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 v[]z \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]x \OT1/cmr/m/
+n/10 + \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/
+10 = \OML/cmm/m/it/10 v[]y \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 v[]x \OMS/cmsy/m/
+n/10 ^^@ \OML/cmm/m/it/10 ^^Lv[]
  []
 
 [3]
-<v_x_vs_x.png, id=27, 421.575pt x 316.18124pt>
+<v_x_vs_x.png, id=26, 421.575pt x 316.18124pt>
 File: v_x_vs_x.png Graphic file (type png)
 <use v_x_vs_x.png>
-Package pdftex.def Info: v_x_vs_x.png  used on input line 226.
+Package pdftex.def Info: v_x_vs_x.png  used on input line 213.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<v_y_vs_y.png, id=28, 421.575pt x 316.18124pt>
+<v_y_vs_y.png, id=27, 421.575pt x 316.18124pt>
 File: v_y_vs_y.png Graphic file (type png)
 <use v_y_vs_y.png>
-Package pdftex.def Info: v_y_vs_y.png  used on input line 233.
+Package pdftex.def Info: v_y_vs_y.png  used on input line 220.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<v_z_vs_z.png, id=29, 421.575pt x 316.18124pt>
+<v_z_vs_z.png, id=28, 421.575pt x 316.18124pt>
 File: v_z_vs_z.png Graphic file (type png)
 <use v_z_vs_z.png>
-Package pdftex.def Info: v_z_vs_z.png  used on input line 240.
+Package pdftex.def Info: v_z_vs_z.png  used on input line 227.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<y_vs_x.png, id=30, 421.575pt x 316.18124pt>
+<y_vs_x.png, id=29, 421.575pt x 316.18124pt>
 File: y_vs_x.png Graphic file (type png)
 <use y_vs_x.png>
-Package pdftex.def Info: y_vs_x.png  used on input line 247.
+Package pdftex.def Info: y_vs_x.png  used on input line 234.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<z_vs_y.png, id=31, 421.575pt x 316.18124pt>
+<z_vs_y.png, id=30, 421.575pt x 316.18124pt>
 File: z_vs_y.png Graphic file (type png)
 <use z_vs_y.png>
-Package pdftex.def Info: z_vs_y.png  used on input line 254.
+Package pdftex.def Info: z_vs_y.png  used on input line 241.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<x_vs_z.png, id=32, 421.575pt x 316.18124pt>
+<x_vs_z.png, id=31, 421.575pt x 316.18124pt>
 File: x_vs_z.png Graphic file (type png)
 <use x_vs_z.png>
-Package pdftex.def Info: x_vs_z.png  used on input line 261.
+Package pdftex.def Info: x_vs_z.png  used on input line 248.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<vy_vs_vx.png, id=33, 421.575pt x 316.18124pt>
+<vy_vs_vx.png, id=32, 421.575pt x 316.18124pt>
 File: vy_vs_vx.png Graphic file (type png)
 <use vy_vs_vx.png>
-Package pdftex.def Info: vy_vs_vx.png  used on input line 268.
+Package pdftex.def Info: vy_vs_vx.png  used on input line 255.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<vz_vs_vy.png, id=34, 421.575pt x 316.18124pt>
+<vz_vs_vy.png, id=33, 421.575pt x 316.18124pt>
 File: vz_vs_vy.png Graphic file (type png)
 <use vz_vs_vy.png>
-Package pdftex.def Info: vz_vs_vy.png  used on input line 275.
+Package pdftex.def Info: vz_vs_vy.png  used on input line 262.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<vx_vs_vz.png, id=35, 421.575pt x 316.18124pt>
+<vx_vs_vz.png, id=34, 421.575pt x 316.18124pt>
 File: vx_vs_vz.png Graphic file (type png)
 <use vx_vs_vz.png>
-Package pdftex.def Info: vx_vs_vz.png  used on input line 282.
+Package pdftex.def Info: vx_vs_vz.png  used on input line 269.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
  [4 <./v_x_vs_x.png (PNG copy)> <./v_y_vs_y.png (PNG copy)> <./v_z_vs_z.png (PN
-G copy)> <./y_vs_x.png (PNG copy)>]
+G copy)>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 288.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 288.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 276.
 
 
 Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-[5 <./z_vs_y.png (PNG copy)> <./x_vs_z.png (PNG copy)> <./vy_vs_vx.png (PNG cop
-y)> <./vz_vs_vy.png (PNG copy)> <./vx_vs_vz.png (PNG copy)>]
-<kinetic_energy_plot.png, id=42, 421.575pt x 316.18124pt>
+[5 <./y_vs_x.png (PNG copy)> <./z_vs_y.png (PNG copy)> <./x_vs_z.png (PNG copy)
+> <./vy_vs_vx.png (PNG copy)> <./vz_vs_vy.png (PNG copy)> <./vx_vs_vz.png (PNG 
+copy)>]
+<kinetic_energy_plot.png, id=41, 421.575pt x 316.18124pt>
 File: kinetic_energy_plot.png Graphic file (type png)
 <use kinetic_energy_plot.png>
-Package pdftex.def Info: kinetic_energy_plot.png  used on input line 294.
+Package pdftex.def Info: kinetic_energy_plot.png  used on input line 281.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<work.png, id=43, 421.575pt x 316.18124pt>
+<work.png, id=42, 421.575pt x 316.18124pt>
 File: work.png Graphic file (type png)
 <use work.png>
-Package pdftex.def Info: work.png  used on input line 300.
+Package pdftex.def Info: work.png  used on input line 287.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<homoclinic_heteroclinic_points.png, id=44, 903.375pt x 465.99094pt>
+<homoclinic_heteroclinic_points.png, id=43, 903.375pt x 465.99094pt>
 File: homoclinic_heteroclinic_points.png Graphic file (type png)
 <use homoclinic_heteroclinic_points.png>
 Package pdftex.def Info: homoclinic_heteroclinic_points.png  used on input line
- 311.
-(pdftex.def)             Requested size: 196.80075pt x 101.51575pt.
-<PE_vs_time_x.png, id=45, 421.575pt x 316.18124pt>
-File: PE_vs_time_x.png Graphic file (type png)
-<use PE_vs_time_x.png>
-Package pdftex.def Info: PE_vs_time_x.png  used on input line 320.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<PE_vs_time_y.png, id=46, 421.575pt x 316.18124pt>
-File: PE_vs_time_y.png Graphic file (type png)
-<use PE_vs_time_y.png>
-Package pdftex.def Info: PE_vs_time_y.png  used on input line 326.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<PE_vs_time_z.png, id=47, 421.575pt x 316.18124pt>
-File: PE_vs_time_z.png Graphic file (type png)
-<use PE_vs_time_z.png>
-Package pdftex.def Info: PE_vs_time_z.png  used on input line 332.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<SE_vs_time_x.png, id=48, 421.575pt x 316.18124pt>
-File: SE_vs_time_x.png Graphic file (type png)
-<use SE_vs_time_x.png>
-Package pdftex.def Info: SE_vs_time_x.png  used on input line 338.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<SE_vs_time_y.png, id=49, 421.575pt x 316.18124pt>
-File: SE_vs_time_y.png Graphic file (type png)
-<use SE_vs_time_y.png>
-Package pdftex.def Info: SE_vs_time_y.png  used on input line 344.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<SE_vs_time_z.png, id=50, 421.575pt x 316.18124pt>
-File: SE_vs_time_z.png Graphic file (type png)
-<use SE_vs_time_z.png>
-Package pdftex.def Info: SE_vs_time_z.png  used on input line 350.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<RE_vs_time_x.png, id=51, 421.575pt x 316.18124pt>
-File: RE_vs_time_x.png Graphic file (type png)
-<use RE_vs_time_x.png>
-Package pdftex.def Info: RE_vs_time_x.png  used on input line 356.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<RE_vs_time_y.png, id=52, 421.575pt x 316.18124pt>
-File: RE_vs_time_y.png Graphic file (type png)
-<use RE_vs_time_y.png>
-Package pdftex.def Info: RE_vs_time_y.png  used on input line 362.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<RE_vs_time_z.png, id=53, 421.575pt x 316.18124pt>
-File: RE_vs_time_z.png Graphic file (type png)
-<use RE_vs_time_z.png>
-Package pdftex.def Info: RE_vs_time_z.png  used on input line 368.
-(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
-<renyi_entropy_vs_alpha_for_100_bin.png, id=54, 421.575pt x 316.18124pt>
+ 298.
+(pdftex.def)             Requested size: 369.0pt x 190.34647pt.
+
+Overfull \hbox (123.0pt too wide) in paragraph at lines 298--299
+ [][] 
+ []
+
+<PE_vs_time_x_y_z.png, id=44, 602.25pt x 451.6875pt>
+File: PE_vs_time_x_y_z.png Graphic file (type png)
+<use PE_vs_time_x_y_z.png>
+Package pdftex.def Info: PE_vs_time_x_y_z.png  used on input line 308.
+(pdftex.def)             Requested size: 196.80075pt x 147.60307pt.
+[6 <./kinetic_energy_plot.png (PNG copy)> <./work.png (PNG copy)> <./homoclinic
+_heteroclinic_points.png (PNG copy)> <./PE_vs_time_x_y_z.png (PNG copy)>]
+<SE_vs_time_x_y_z.png, id=49, 602.25pt x 451.6875pt>
+File: SE_vs_time_x_y_z.png Graphic file (type png)
+<use SE_vs_time_x_y_z.png>
+Package pdftex.def Info: SE_vs_time_x_y_z.png  used on input line 326.
+(pdftex.def)             Requested size: 196.80075pt x 147.60307pt.
+<RE_vs_time_x_y_z.png, id=50, 602.25pt x 451.6875pt>
+File: RE_vs_time_x_y_z.png Graphic file (type png)
+<use RE_vs_time_x_y_z.png>
+Package pdftex.def Info: RE_vs_time_x_y_z.png  used on input line 333.
+(pdftex.def)             Requested size: 196.80075pt x 147.60307pt.
+<renyi_entropy_vs_alpha_for_100_bin.png, id=51, 421.575pt x 316.18124pt>
 File: renyi_entropy_vs_alpha_for_100_bin.png Graphic file (type png)
 <use renyi_entropy_vs_alpha_for_100_bin.png>
 Package pdftex.def Info: renyi_entropy_vs_alpha_for_100_bin.png  used on input 
-line 374.
+line 339.
 (pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
- [6 <./kinetic_energy_plot.png (PNG copy)> <./work.png (PNG copy)> <./homoclini
-c_heteroclinic_points.png (PNG copy)> <./PE_vs_time_x.png (PNG copy)> <./PE_vs_
-time_y.png (PNG copy)>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 382.
+Underfull \hbox (badness 2970) in paragraph at lines 344--348
+[]\OT1/cmr/m/n/10 Meanwhile au-to-cor-re-la-tion shows us $\OML/cmm/m/it/10 x\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$ de-cays
+ []
 
+<auto_correlation.png, id=52, 421.575pt x 316.18124pt>
+File: auto_correlation.png Graphic file (type png)
+<use auto_correlation.png>
+Package pdftex.def Info: auto_correlation.png  used on input line 351.
+(pdftex.def)             Requested size: 196.80075pt x 147.6017pt.
+[7 <./SE_vs_time_x_y_z.png (PNG copy)> <./RE_vs_time_x_y_z.png (PNG copy)> <./r
+enyi_entropy_vs_alpha_for_100_bin.png (PNG copy)> <./auto_correlation.png (PNG 
+copy)>] (document.bbl)
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 382.
+Package natbib Warning: There were undefined citations.
 
-
-Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
-
-(document.bbl) [7 <./PE_vs_time_z.png (PNG copy)> <./SE_vs_time_x.png (PNG copy
-)> <./SE_vs_time_y.png (PNG copy)> <./SE_vs_time_z.png (PNG copy)> <./RE_vs_tim
-e_x.png (PNG copy)> <./RE_vs_time_y.png (PNG copy)>] [8 <./RE_vs_time_z.png (PN
-G copy)> <./renyi_entropy_vs_alpha_for_100_bin.png (PNG copy)>] (document.aux)
+[8] (document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 6458 strings out of 474485
- 97551 string characters out of 5760627
+ 6469 strings out of 474485
+ 97639 string characters out of 5760627
  1947542 words of memory out of 5000000
- 28681 multiletter control sequences out of 15000+600000
- 571492 words of font info for 85 fonts, out of 8000000 for 9000
+ 28692 multiletter control sequences out of 15000+600000
+ 569712 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,79p,639b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<F:/miktx/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/miktx/fonts/type1/pub
-lic/amsfonts/cm/cmbx9.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-F:/miktx/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/miktx/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/m
-iktx/fonts/type1/public/amsfonts/cm/cmr7.pfb><F:/miktx/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmr9.pfb><F:/miktx/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><F:/miktx/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/miktx/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/miktx/fonts/type1
-/public/amsfonts/cm/cmti9.pfb>
-Output written on document.pdf (8 pages, 918091 bytes).
+ 71i,8n,79p,798b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ZS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm100
+0.pk><F:/miktx/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/miktx/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmbx9.pf
+b><F:/miktx/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/miktx/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+F:/miktx/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/miktx/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/mikt
+x/fonts/type1/public/amsfonts/cm/cmr9.pfb><F:/miktx/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmsy6.pfb><F:/miktx/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/
+cmti10.pfb><F:/miktx/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on document.pdf (8 pages, 878419 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
